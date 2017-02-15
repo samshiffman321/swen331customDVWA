@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<?php
+setcookie("AdminCookie", "BettyWhiteWasHere");
+ ?>
 <head>
-
-<script type="text/javascript">
-document.cookie = "AdminCookie=CookieMonster";
-</script>
+  <title>Test Admin Page</title>
+</head>
 <html>
 <body>
   <form>
@@ -15,6 +15,7 @@ document.cookie = "AdminCookie=CookieMonster";
     <br><br>
     <input type="submit" value="I'm an Idiot!">
   </form>
-  <a href="http://localhost:8888/DVWA/settings?input=">Click Me!</a>
+  <a href="http://localhost:8888/DVWA1/settings?input=blahblahblah">Click Me!</a>
+  <a href="http://google.com">Click Me!</a>
 </body>
 </html>
