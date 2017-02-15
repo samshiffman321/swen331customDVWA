@@ -1,9 +1,7 @@
-<!DOCTYPE html>
+<?php
+setcookie("TestCookie", "CookieMonster");
+ ?>
 <head>
-
-<script type="text/javascript">
-document.cookie = "FuzzCookie=YouFoundTheCookie";
-</script>
 <html>
 <body>
   <form>
