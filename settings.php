@@ -2,6 +2,8 @@
 setcookie("TestCookie", "CookieMonster");
  ?>
 <head>
+  <title>Test Credit Card Title Page</title>
+</head>
 <html>
 <body>
   <form>
